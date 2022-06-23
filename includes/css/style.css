@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    color: rgb(0, 0, 0);
+    background: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*CSS code for index.php, signup.php, admin.php*/
+
+.form-control {
+    min-height: 41px;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    border-color: #aaa;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.form {
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.form h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form form {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.form .form-group {
+    margin-bottom: 20px;
+    padding: 0 15px;
+    color: #222;
+}
+
+.form label {
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+
+.form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    /*    background: #090077;*/
+    border: none;
+    margin-top: 20px;
+    min-width: 140px;
+}
+
+.form .btn:hover,
+.form .btn:focus {
+    background: #444;
+    outline: none !important;
+}
+
+.form a {
+    text-decoration: underline;
+}
+
+.form a:hover {
+    text-decoration: none;
+}
+
+.form form a {
+    color: #5cd3b4;
+    text-decoration: none;
+}
+
+.form form a:hover {
+    text-decoration: underline;
+}
+
+.formerror {
+    text-align: center;
+    color: red;
+}
+
+.form .heading {
+    margin: 0 auto 30px;
+    text-align: center;
+
+
+}
+
+.form .heading i {
+    font-size: 62px;
+}
+
+.form .top {
+
+    margin-top: 25px;
+}
+
+.form .new {
+    font-family: Helvetica;
+    font-size: 22px;
+    margin: 20px auto;
+    font-weight: 700;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.bottom-text {
+    text-align: center;
+    font-size: 90%;
+    margin: 50px;
+}
+
+
+.error {
+    color: white;
+    text-align: center;
+}
+
+/*Media Breakpoints*/
+
+@media only screen and (max-width: 600px) {
+
+    .form {
+        width: 90%;
+    }
+
+    .read-card {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .form {
+        width: 500px;
+    }
+
+    .read-card {
+        width: 80%;
+    }
+
+    #container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .form {
+        width: 500px;
+    }
+
+    .read-card {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #container {
+        width: 890px;
+    }
+
+}
+
+.material-icons {
+    font-size: 1em;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.button-logon {
+    justify-content: space-between;
+}
